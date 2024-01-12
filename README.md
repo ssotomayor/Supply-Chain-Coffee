@@ -92,15 +92,29 @@ In a separate terminal window, launch the DApp:
 npm run dev
 ```
 
+# UML Diagrams
+
+## Activity Diagram
+![truffle test](project-6/UML/Activity.png)
+
+## Sequence Diagram
+![truffle test](project-6/UML/Sequence.png)
+
+## State Diagram
+![truffle test](project-6/UML/State.png)
+
+## Class Diagram
+![truffle test](project-6/UML/Class.png)
+
 ## Built With
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
-* [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
-to make the web faster, safer, and more open.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 
 # Goerli Testnet deployment
-https://goerli.etherscan.io/address/0xC078D71510642b8141C90A04D281dBdCcF6C223F
+Contract: https://goerli.etherscan.io/address/0xC078D71510642b8141C90A04D281dBdCcF6C223F
+
+TX Hash: https://goerli.etherscan.io/tx/0xd0cd8e27e04c9ed92e294f19dfc6e3ae212199ca8315ce3c05da068cc2e1208b
 
 ## Authors
 
@@ -111,4 +125,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 * Solidity
 * Ganache-cli
 * Truffle
-* IPFS
