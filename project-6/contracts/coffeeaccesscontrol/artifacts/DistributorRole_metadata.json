@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.5.12+commit.7709ece9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "DistributorAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "DistributorRemoved",
+				"type": "event"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addDistributor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getAllDistributors",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isDistributor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceDistributor",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/coffeeaccesscontrol/DistributorRole.sol": "DistributorRole"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/coffeeaccesscontrol/DistributorRole.sol": {
+			"keccak256": "0xee5cd5302468c4b9b17f80e4230da8ef436eddfc0ee2d98da85264340dfca1ce",
+			"urls": [
+				"bzz-raw://40c47d4cbab16b702842c24e76db92ad184326ee08feef840526b0ba1c21a460",
+				"dweb:/ipfs/QmV4WB6sqEioZULK7gJaskWveU6ppaiMtPHNSog4uYQaPZ"
+			]
+		},
+		"contracts/coffeeaccesscontrol/Roles.sol": {
+			"keccak256": "0x95c27c0387f1b49047f91d46a813821184b5d5d080816e8c2d5e7427e5d3aab6",
+			"urls": [
+				"bzz-raw://caca555e630dcfe871a7d6664ad6933b21d9381b3de98e7a75c10c3c83a7522d",
+				"dweb:/ipfs/QmapZJcaMRmcKmL8pHxTE1L6uEmsAG7KDYAoPJrSWwFgiz"
+			]
+		}
+	},
+	"version": 1
+}

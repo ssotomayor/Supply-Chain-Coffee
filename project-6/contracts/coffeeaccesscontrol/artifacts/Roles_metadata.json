@@ -1,0 +1,39 @@
+{
+	"compiler": {
+		"version": "0.5.12+commit.7709ece9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Library for managing addresses assigned to a Role.",
+			"methods": {},
+			"title": "Roles"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/coffeeaccesscontrol/Roles.sol": "Roles"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/coffeeaccesscontrol/Roles.sol": {
+			"keccak256": "0x95c27c0387f1b49047f91d46a813821184b5d5d080816e8c2d5e7427e5d3aab6",
+			"urls": [
+				"bzz-raw://caca555e630dcfe871a7d6664ad6933b21d9381b3de98e7a75c10c3c83a7522d",
+				"dweb:/ipfs/QmapZJcaMRmcKmL8pHxTE1L6uEmsAG7KDYAoPJrSWwFgiz"
+			]
+		}
+	},
+	"version": 1
+}
