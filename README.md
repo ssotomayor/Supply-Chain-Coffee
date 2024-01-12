@@ -116,10 +116,6 @@ Contract: https://goerli.etherscan.io/address/0xC078D71510642b8141C90A04D281dBdC
 
 TX Hash: https://goerli.etherscan.io/tx/0xd0cd8e27e04c9ed92e294f19dfc6e3ae212199ca8315ce3c05da068cc2e1208b
 
-## Authors
-
-See also the list of [contributors](https://github.com/your/project/contributors.md) who participated in this project.
-
 ## Acknowledgments
 
 * Solidity
